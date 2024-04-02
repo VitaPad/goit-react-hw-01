@@ -1,0 +1,23 @@
+.table {
+  margin: auto; /* Центрує таблицю по горизонталі */
+  border-collapse: collapse;
+}
+
+.thread {
+  background-color: #333; /* Темно-сірий колір для заголовку таблиці */
+  color: #fff; /* Колір тексту в заголовку таблиці */
+}
+
+.tr:nth-child(even) {
+  background-color: #f2f2f2; /* Світло-сірий фон для парних рядків */
+}
+
+.tr:nth-child(odd) {
+  background-color: #ddd; /* Сірий фон для непарних рядків */
+}
+
+.th,
+.td {
+  padding: 8px; /* Зазначаємо відступи для стовпців */
+  text-align: left; /* Вирівнюємо текст по лівому краю */
+}
