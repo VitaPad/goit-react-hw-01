@@ -2,7 +2,9 @@
 import Profile from "./Profile.jsx";
 import userData from '../userData.json';
 import friends from "../friends.json";
-import FriendList from "./FriendList.jsx"
+import transactions from "../transactions.json";
+import FriendList from "./FriendList.jsx";
+import TransactionHistory from "./TransactionHistory.jsx"
 
 export default function App() {
 
@@ -16,6 +18,7 @@ export default function App() {
   image={userData.avatar}
   stats={userData.stats}/>
   <FriendList friends={friends} />
+  <TransactionHistory items={transactions}/>
     </>
   )
 }
