@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.list {
+  list-style: none;
+  border: 2px solid grey;
+  border-radius: 10px;
+}
+.box {
+  margin: 36px;
+}
+.onlineStatus {
+  color: green;
+}
+
+.offlineStatus {
+  color: red;
+}
